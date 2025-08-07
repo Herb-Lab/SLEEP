@@ -34,8 +34,8 @@ It includes:
 
 | File | Description |
 |------|-------------|
-| [in.idf](./2_SLeep_and_Environmental_Exposure_evaluation_framework_for_urban_Populations_(SLEEP)/in.idf) | Example EnergyPlus `.idf` file from [ResStock v3.2.0](https://resstock.readthedocs.io/en/v3.2.0/), integrated with automated sleep health risk estimation. |
-| [Integrating_sleep_model_into_idf_files.py](./2_SLeep_and_Environmental_Exposure_evaluation_framework_for_urban_Populations_(SLEEP)/Integrating_sleep_model_into_idf_files.py) | Python script for embedding sleep health models into EnergyPlus `.idf` files. |
+| [in.idf](./2_SLeep_and_Environmental_Exposure_evaluation_framework_for_urban_Populations_(SLEEP)/in.idf) | Example [EnergyPlus 23.2.0](https://github.com/NREL/EnergyPlus/releases/tag/v23.2.0) `.idf` file from [ResStock v3.2.0](https://resstock.readthedocs.io/en/v3.2.0/), integrated with automated sleep health risk estimation. |
+| [Integrating_sleep_model_into_idf_files.py](./2_SLeep_and_Environmental_Exposure_evaluation_framework_for_urban_Populations_(SLEEP)/Integrating_sleep_model_into_idf_files.py) | Python script for embedding sleep health models into [EnergyPlus 23.2.0](https://github.com/NREL/EnergyPlus/releases/tag/v23.2.0) `.idf` files. |
 
 ### 3. Quantification statistics for sleep disparity
 #### Obstructive Sleep Apnea Model
