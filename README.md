@@ -18,5 +18,11 @@ These resources support simulation-based assessments of sleep-related health ris
 
 | File | Description |
 |------|-------------|
-| [01_Load_library_and_function.R](./1 Sleep health model development/01_Load_library_and_function.R) | Load the required R packages and functions. |
-| [02_Regression.R](./README.md) | Provides an overview, setup instructions, and usage information for the project.|
+| [01_Load_library_and_function.R](./1_Sleep_health_model_development/Obstructive_sleep_apnea_model/01_Load_library_and_function.R) | Load the required R packages and functions. |
+| [02_Regression.R](./1_Sleep_health_model_development/Obstructive_sleep_apnea_model/02_Regression) | Code for model regressions.|
+#### Sleep efficiency model
+
+| File | Description |
+|------|-------------|
+| [01_Load_library_and_function.R](./1_Sleep_health_model_development/Sleep_efficiency_model/01_Load_library_and_function.R) | Load the required R packages and functions. |
+| [02_Regression.R](./1_Sleep_health_model_development/Sleep_efficiency_model/02_Regression) | Code for model regressions.|
