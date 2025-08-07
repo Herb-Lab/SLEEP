@@ -8,7 +8,7 @@ It includes:
   - Obstructive sleep apnea model
   - Sleep efficiency model
 - 📊 **[R 4.3.2](https://cran.r-project.org/bin/windows/base/old/4.3.2/)** code for quantifying sleep health disparities
-- 🏠 **[EnergyPlus 23.2.0](https://github.com/NREL/EnergyPlus/releases/tag/v23.2.0)  `.idf` file** for integrating sleep health models into building energy simulations
+- 🏠 **[EnergyPlus 23.2.0](https://github.com/NREL/EnergyPlus/releases/tag/v23.2.0)  `.idf` file** with sleep health models integrated into building energy simulations
 
 
 
