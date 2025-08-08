@@ -34,11 +34,10 @@ It includes:
 
 | File | Description |
 |------|-------------|
-| [in.idf](./2_SLeep_and_Environmental_Exposure_evaluation_framework_for_urban_Populations_(SLEEP)/in.idf) | Example [EnergyPlus 23.2.0](https://github.com/NREL/EnergyPlus/releases/tag/v23.2.0) `.idf` file from [ResStock v3.2.0](https://resstock.readthedocs.io/en/v3.2.0/), integrated with automated sleep health risk estimation. |
+| [in.idf](./2_SLeep_and_Environmental_Exposure_evaluation_framework_for_urban_Populations_(SLEEP)/in.idf) | An `.idf` (input data file) is a plain text file used to define building and HVAC system information for simulations. It consists of a list of objects, each containing comma-separated fields that specify parameters such as geometry, construction, and HVAC system details. Starting from the [ResStock v3.2.0](https://resstock.readthedocs.io/en/v3.2.0/) `.idf` generated for [EnergyPlus 23.2.0](https://github.com/NREL/EnergyPlus/releases/tag/v23.2.0), we ran `Integrating_sleep_model_into_idf_files.py` on the original file to produce this version, which includes automated sleep health risk estimation. |
 | [Integrating_sleep_model_into_idf_files.py](./2_SLeep_and_Environmental_Exposure_evaluation_framework_for_urban_Populations_(SLEEP)/Integrating_sleep_model_into_idf_files.py) | Python script for embedding sleep health models into [EnergyPlus 23.2.0](https://github.com/NREL/EnergyPlus/releases/tag/v23.2.0) `.idf` files. |
 
 ### 3. Quantification statistics for sleep disparity
-#### Obstructive Sleep Apnea Model
 
 | File | Description |
 |------|-------------|
