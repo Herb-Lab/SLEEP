@@ -19,14 +19,14 @@ It includes:
 | File | Description |
 |------|-------------|
 | [01_Load_library_and_function.R](./1_Sleep_health_model_development/Obstructive_sleep_apnea_model/01_Load_library_and_function.R) | Loads the required R packages and functions. |
-| [02_Regression.R](./1_Sleep_health_model_development/Obstructive_sleep_apnea_model/02_Regression.R) | Performs regression modeling for the obstructive sleep apnea model. |
+| [02_Regression.R](./1_Sleep_health_model_development/Obstructive_sleep_apnea_model/02_Regression.R) | Performs regression modeling for the obstructive sleep apnea model, corresponding to `Table 1` and `Equation 3` in the paper. |
 
 #### Sleep efficiency model
 
 | File | Description |
 |------|-------------|
 | [01_Load_library_and_function.R](./1_Sleep_health_model_development/Sleep_efficiency_model/01_Load_library_and_function.R) | Loads the required R packages and functions. |
-| [02_Regression.R](./1_Sleep_health_model_development/Sleep_efficiency_model/02_Regression.R) | Performs regression modeling for the sleep efficiency model. |
+| [02_Regression.R](./1_Sleep_health_model_development/Sleep_efficiency_model/02_Regression.R) | Performs regression modeling for the sleep efficiency model, corresponding to `Table 1` and `Equation 4` in the paper.  |
 
 ---
 
@@ -42,7 +42,9 @@ It includes:
 | File | Description |
 |------|-------------|
 | [01_Load_library.R](./3_Quantification_statistics_for_sleep_disparity/01_Load_library.R) | Loads the required R packages. |
-| [02_KL_divergence.R](./3_Quantification_statistics_for_sleep_disparity/02_KL_divergence.R) | Calculates Kullback-Leibler (KL) divergence to quantify similarities in the distribution of sleep health risks among cities. |
-| [03_Gini.R](./3_Quantification_statistics_for_sleep_disparity/03_Gini.R) | Computes the Gini coefficient for each city to assess inequality in sleep health risks. |
-| [04_City_level_regression_analysis.R](./3_Quantification_statistics_for_sleep_disparity/04_City_level_regression_analysis.R) | Examines the relationship between housing characteristics and sleep health risks at the city level. |
-| [05_PCA.R](./3_Quantification_statistics_for_sleep_disparity/05_PCA.R) | Performs principal component analysis (PCA) to explore relationships between building characteristics and sleep health risks. |
+| [02_KL_divergence.R](./3_Quantification_statistics_for_sleep_disparity/02_KL_divergence.R) | Calculates Kullback-Leibler (KL) divergence to quantify similarities in the distribution of sleep health risks among cities, corresponding to `Figure 2a` and `Figure 2d` in the paper. |
+| [03_Gini.R](./3_Quantification_statistics_for_sleep_disparity/03_Gini.R) | Computes the Gini coefficient for each city to assess inequality in sleep health risks, corresponding to `Figure 2b`, `Figure 2e`, and `Figure 4d` in the paper.  |
+| [04_City_level_regression_analysis.R](./3_Quantification_statistics_for_sleep_disparity/04_City_level_regression_analysis.R) | Examines the relationship between housing characteristics and sleep health risks at the city level, corresponding to `Table 2` in the paper. |
+| [05_PCA.R](./3_Quantification_statistics_for_sleep_disparity/05_PCA.R) | Performs principal component analysis (PCA) to explore relationships between building characteristics and sleep health risks, corresponding to `Figure 4b` in the paper.  |
+
+If you use any code from this repository, please cite our paper as: **Yalin Lu, Qi Zhang, Eri Saikawa, Rui Xiao, Ignacio E. Tapia, Nan Ma. _Housing Conditions as Drivers of Pediatric Sleep Disparities in U.S. Cities_.**
