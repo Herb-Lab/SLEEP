@@ -1,4 +1,4 @@
-# SLeep and Environmental Exposure Evaluation Framework for Urban Populations (SLEEP)
+# SLeep and Environmental Exposure evaluation framework for urban Populations (SLEEP)
 
 This repository contains the code corresponding to the Methods section of the manuscript **_Housing Conditions as Drivers of Pediatric Sleep Disparities in U.S. Cities_.**
 
